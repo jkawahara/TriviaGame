@@ -46,8 +46,12 @@ button:hover {
   border-color: blue;
 }
 
-#start-btn-section button {
+#start-btn-section button, #restart-btn-section button {
   width: 30%;
+}
+
+#choices-section button {
+  width: 50%;
 }
 
 #result-msg-section{
