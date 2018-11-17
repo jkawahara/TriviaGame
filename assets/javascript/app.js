@@ -39,87 +39,88 @@ $(document).ready(function(){
       answer: "c",
       imagePath: "assets/images/q3_chianti.jpg"
     },
-    // {
-    //   question: "Which of these white wines is usually a little sweet?",
-    //   choices: {
-    //     a: "Riesling",
-    //     b: "Sauvignon Blanc",
-    //     c: "Chardonnay",
-    //     d: "Pinot Grigio"
-    //   },
-    //   answer: "a",
-    //   imagePath: "assets/images/q4_riesling.jpg"
-    // },
-    // {
-    //   question: "Which of these red wines is usually (most commonly) a little spicy or peppery?",
-    //   choices: {
-    //     a: "Cabernet Sauvignon",
-    //     b: "Shiraz",
-    //     c: "Merlot",
-    //     d: "Pinot Noir"
-    //   },
-    //   answer: "b",
-    //   imagePath: "assets/images/q5_shiraz.jpg"
-    // },
-    // {
-    //   question: "Why is champagne bubbly?",
-    //   choices: {
-    //     a: "The wine is aged less",
-    //     b: "The wine undergoes a secondary fermentation, usually yeast and sugar is added",
-    //     c: "The wine is aged in steel",
-    //     d: "The wine is shaken"
-    //   },
-    //   answer: "b",
-    //   imagePath: "assets/images/q6_champagne.jpg"
-    // },
-    // {
-    //   question: "What is the traditional way to pour wine during a wine service",
-    //   choices: {
-    //     a: "The person who ordered the wine is first, then clockwise around the table",
-    //     b: "Counterclockwise",
-    //     c: "￼Ladies first, then men, finishing with whomever ordered the bottle",
-    //     d: "Ladies first, then men, no matter who ordered the bottle"
-    //   },
-    //   answer: "c",
-    //   imagePath: "assets/images/q7_wineservice.jpg"
-    // },
-    // {
-    //   question: "What is a stelvin?",
-    //   choices: {
-    //     a: "A wine opener",
-    //     b: "A special glass for port wine",
-    //     c: "A type of wine cap, commonly known as a screw cap",
-    //     d: "An expert on wine, like a sommelier"
-    //   },
-    //   answer: "c",
-    //   imagePath: "assets/images/q8_stelvin.jpg"
-    // },
-    // {
-    //   question: "Why do people smell the cork during a wine service?",
-    //   choices: {
-    //     a: "To see if the wine has gone bad",
-    //     b: "To see if the wine has been aged properly",
-    //     c: "To get a sense of the wine",
-    //     d: "None of the above"
-    //   },
-    //   answer: "d",
-    //   imagePath: "assets/images/q9_corkwetness.jpg",
-    //   explanation: "During a wine service, you don't need to smell the cork. You inspect the cork to see if it's wet, which means the wine has been stored properly."
-    // },
-    // {
-    //   question: "What are the grapes in a Bordeaux style wine?",
-    //   choices: {
-    //     a: "Cabernet sauvignon, pinot noir, cabernet franc",
-    //     b: "Merlot, carmenere, petit verdot and cabernet sauvignon",
-    //     c: "Merlot, malbec and pinot noir",
-    //     d: "Merlot, cabernet sauvignon, cabernet franc, petit verdot, carmenere and malbec"
-    //   },
-    //   answer: "d",
-    //   imagePath: "assets/images/q10_bordeaux.jpg"
-    // }
+    {
+      question: "Which of these white wines is usually a little sweet?",
+      choices: {
+        a: "Riesling",
+        b: "Sauvignon Blanc",
+        c: "Chardonnay",
+        d: "Pinot Grigio"
+      },
+      answer: "a",
+      imagePath: "assets/images/q4_riesling.jpg"
+    },
+    {
+      question: "Which of these red wines is usually (most commonly) a little spicy or peppery?",
+      choices: {
+        a: "Cabernet Sauvignon",
+        b: "Shiraz",
+        c: "Merlot",
+        d: "Pinot Noir"
+      },
+      answer: "b",
+      imagePath: "assets/images/q5_shiraz.jpg"
+    },
+    {
+      question: "Why is champagne bubbly?",
+      choices: {
+        a: "The wine is aged less",
+        b: "The wine undergoes a secondary fermentation, usually yeast and sugar is added",
+        c: "The wine is aged in steel",
+        d: "The wine is shaken"
+      },
+      answer: "b",
+      imagePath: "assets/images/q6_champagne.jpg"
+    },
+    {
+      question: "What is the traditional way to pour wine during a wine service",
+      choices: {
+        a: "The person who ordered the wine is first, then clockwise around the table",
+        b: "Counterclockwise",
+        c: "￼Ladies first, then men, finishing with whomever ordered the bottle",
+        d: "Ladies first, then men, no matter who ordered the bottle"
+      },
+      answer: "c",
+      imagePath: "assets/images/q7_wineservice.jpg"
+    },
+    {
+      question: "What is a stelvin?",
+      choices: {
+        a: "A wine opener",
+        b: "A special glass for port wine",
+        c: "A type of wine cap, commonly known as a screw cap",
+        d: "An expert on wine, like a sommelier"
+      },
+      answer: "c",
+      imagePath: "assets/images/q8_stelvin.jpg"
+    },
+    {
+      question: "Why do people smell the cork during a wine service?",
+      choices: {
+        a: "To see if the wine has gone bad",
+        b: "To see if the wine has been aged properly",
+        c: "To get a sense of the wine",
+        d: "None of the above"
+      },
+      answer: "d",
+      imagePath: "assets/images/q9_corkwetness.jpg",
+      explanation: "During a wine service, you don't need to smell the cork. You inspect the cork to see if it's wet, which means the wine has been stored properly."
+    },
+    {
+      question: "What are the grapes in a Bordeaux style wine?",
+      choices: {
+        a: "Cabernet sauvignon, pinot noir, cabernet franc",
+        b: "Merlot, carmenere, petit verdot and cabernet sauvignon",
+        c: "Merlot, malbec and pinot noir",
+        d: "Merlot, cabernet sauvignon, cabernet franc, petit verdot, carmenere and malbec"
+      },
+      answer: "d",
+      imagePath: "assets/images/q10_bordeaux.jpg"
+    }
   ];
   var currentObject; // Current object of wineQuestions array
   var currentAnswer; // Current answer of current object
+  var correctResponse; // Flag for response
   var timer; // Timer in seconds
 
   // Declare statistics
@@ -138,6 +139,7 @@ $(document).ready(function(){
     // Initialize questions, correct answers, incorrect answers, unanswered
     currentObject = 0;
     currentAnswer = "";
+    correctResponse = false;
     correctAnswers = 0;
     incorrectAnswers = 0;
     unanswered = 0;
@@ -153,6 +155,7 @@ $(document).ready(function(){
 
   // Render question with answers
   function displayQuestion() {
+    $("#time-remain-section").text("Time Remaining: 30 Seconds");
     $("#question-result-section, #choices-section, #result-msg-section, #result-pic-section, #restart-btn-section").empty();
     $("#question-result-section").append(`<p>${wineQuestions[currentObject].question}</p>`);
     $("#choices-section").append(`<button data-letter="a">${wineQuestions[currentObject].choices.a}</button>`);
@@ -161,7 +164,7 @@ $(document).ready(function(){
     $("#choices-section").append(`<button data-letter="d">${wineQuestions[currentObject].choices.d}</button>`);
     
     currentAnswer = wineQuestions[currentObject].answer;
-    timer = 5;
+    timer = 30;
     timeStart();
   }
 
@@ -184,89 +187,46 @@ $(document).ready(function(){
     // Display timer counting down
     $("#time-remain-section").text(`Time Remaining:  ${timer} Seconds`);
   }
-
-  // If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question -- do this without user input.
   
-  // Render congrats
-  function displayCongrats() {
-    // Display Correct!, image, explanation
+  // Render results
+  function displayResult() {
     $("#question-result-section, #choices-section").empty();
-    $("#question-result-section").append("<p>Correct!</p>");
     $("#result-pic-section").append(`<img src="${wineQuestions[currentObject].imagePath}" alt="${wineQuestions[currentObject].imagePath}">`);
 
-    // Display next question with 3 second delay
-    correctAnswers++;
-    currentObject++;
-    checkQuestions(3000);
-
-    // // Display next question if questions remain
-    // if (currentObject < wineQuestions.length) {
-  
-    //   // Display next question with 3 second delay
-    //   timeDelay(displayQuestion, 3000);
-    // } else {
-
-    //   // Display statistics with 3 seconod delay
-    //   timeDelay(displayStats, 3000);
-    // }
-  }
-  
-  // If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
-
-  // Render Out of Time
-  function displayOutOfTime() {
-    $("#question-result-section, #choices-section").empty();
-    $("#question-result-section").append("<p>Out of Time!</p>");
-    $("#result-msg-section").append(`<p>The Correct Answer was:  ${wineQuestions[currentObject].choices[currentAnswer]}`);
-    $("#result-pic-section").append(`<img src="${wineQuestions[currentObject].imagePath}" alt="${wineQuestions[currentObject].imagePath}">`);
-
-    // Display explanation if exists
-    if (wineQuestions[currentObject].explanation) {
-      $("#result-msg-section").append(`<p>${wineQuestions[currentObject].explanation}`);
-    }
-
-    // Display next question with 5 second delay
-    unanswered++;
-    currentObject++;
-    checkQuestions(5000);
-
-    // // Display next question if questions remain
-    // if (currentObject < wineQuestions.length) {
+    // Check if correct
+    if (correctResponse) {
+      $("#question-result-section").append("<p>Correct!</p>");
+      correctAnswers++;
       
-    //   // Display next question with 5 second delay
-    //   timeDelay(displayQuestion, 5000);
-    // } else {
+      // Display next question after 3 second delay
+      currentObject++;
+      correctResponse = false;
+      checkQuestions(3000);
 
-    //   // Display statistics with 5 seconod delay
-    //   timeDelay(displayStats, 5000);
-    // }
-  }
-  
-  // If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.
-
-  // Render wrong
-  function displayWrong() {
-    // Display Nope!, correct answer, image, explanation
-    $("#question-result-section, #choices-section").empty();
-    $("#question-result-section").append("<p>Nope!</p>");
-    $("#result-msg-section").append(`<p>The Correct Answer was:  ${wineQuestions[currentObject].choices[currentAnswer]}</p>`);
-    $("#result-pic-section").append(`<img src="${wineQuestions[currentObject].imagePath}" alt="${wineQuestions[currentObject].imagePath}">`);
-
-    // Display next question with 5 second delay
-    incorrectAnswers++;
-    currentObject++;
-    checkQuestions(5000);
+    // Check if incorrect or out of time
+    } else if (!correctResponse || timer === 0) {
+      if (!correctResponse && timer > 0) {
+        $("#question-result-section").append("<p>Nope!</p>");
+        incorrectAnswers++;
+        
+      // Check if out of time
+      } else {
+        $("#question-result-section").append("<p>Out of Time!</p>");
+        unanswered++;
+      }
+      
+      $("#result-msg-section").append(`<p>The Correct Answer was:  ${wineQuestions[currentObject].choices[currentAnswer]}</p>`);
+      
+      // Display explanation if exists
+      if (wineQuestions[currentObject].explanation) {
+        $("#result-msg-section").append(`<p>${wineQuestions[currentObject].explanation}`);
+      }
+      
+      // Display next question after 5 second delay
+      currentObject++;
+      checkQuestions(5000);      
+    }
     
-    // // Display next question if questions remain
-    // if (currentObject < wineQuestions.length) {
-  
-    //   // Display next question with 5 second delay
-    //   timeDelay(displayQuestion, 5000);
-    // } else {
-
-    //   // Display statistics with 5 seconod delay
-    //   timeDelay(displayStats, 5000);
-    // }
   }
 
   // Render stats
@@ -274,7 +234,7 @@ $(document).ready(function(){
     // Display timer from last question
     // Display correct answers, incorrect answers, unanswered
     $("#question-result-section, #result-msg-section, #result-pic-section").empty();
-    $("#question-result-section").append("<p>All done. here's how you did!");
+    $("#question-result-section").append("<p>All done, here's how you did!");
     $("#result-msg-section").append(`<p>Correct Answers:  ${correctAnswers}`);
     $("#result-msg-section").append(`<p>Incorrect Answers:  ${incorrectAnswers}`);
     $("#result-msg-section").append(`<p>Unanswered:  ${unanswered}`);
@@ -284,6 +244,7 @@ $(document).ready(function(){
   }
 
   // MAIN CONTROLLER
+  // ===============
 
   // Execute displayStartBtn function after page loads
   displayStartBtn();
@@ -297,11 +258,15 @@ $(document).ready(function(){
 
     // Check if correct or wrong
     if ($(this).attr("data-letter") === wineQuestions[currentObject].answer) {
-      displayCongrats();
+      correctResponse = true;
     } else {
-      displayWrong();
+      correctResponse = false;
     }
+    displayResult();
   });
+  
+  // TIMER CONTROL
+  // =============
   
   // Timer start
   function timeStart() {
@@ -315,10 +280,11 @@ $(document).ready(function(){
       displayTimer();
     }
 
-    // Check if out of questions timer is <= 0
-    if (currentObject < wineQuestions.length && timer <= 0) {
+    // Check if timer is <= 0
+    if (timer <= 0) {
       timeStop();
-      displayOutOfTime();
+      correctResponse = false;
+      displayResult();
     }
   }
 
@@ -336,5 +302,4 @@ $(document).ready(function(){
   function timeDelay(displayCaller, delayTime) {
     setTimeout(displayCaller, delayTime);
   }
-
 });

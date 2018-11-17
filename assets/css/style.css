@@ -48,6 +48,7 @@ button:hover {
 
 #start-btn-section button, #restart-btn-section button {
   width: 30%;
+  margin-top: 50px;
 }
 
 #choices-section button {
