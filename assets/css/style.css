@@ -27,10 +27,6 @@ header .title {
   margin: 40px;
 }
 
-#choices-section {
-
-}
-
 button {
   display: block;
   background-color: transparent;
@@ -43,30 +39,14 @@ button {
 
 button:hover {
   background-color: lightblue;
-  border-color: blue;
+  /* border-color: blue; */
 }
 
 #start-btn-section button, #restart-btn-section button {
   width: 30%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 #choices-section button {
-  width: 50%;
-}
-
-#result-msg-section{
-  
-}
-
-#result-pic-section {
-
-}
-
-#restart-btn-section {
-
-}
-
-#video-section {
-  /* visibility: hidden; */
+  width: auto;
 }
