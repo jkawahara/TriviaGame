@@ -1,6 +1,6 @@
 # TriviaGame
 
-Getting Started
+Getting Started:
 Game Instructions:
 -After page loads, start button is rendered.
 -If start button is pressed, each question is displayed with multiple choices, requiring correct answer in alloted time.
@@ -10,11 +10,11 @@ Game Instructions:
 -If all questions have been answered, then a statistics page (correct answers, incorrect answers and unanswered) is rendered along with a restart button.
 
 Prerequisites for Development-
-MacBook Air (Intel Core i7, 2.2 GHz, 1 Processor, 2 Cores, 8GB)
-git version 2.18.0
-Visual Studio Code Version 1.29.1
-[GitHub](https://github.com/jkawahara/TriviaGame)
-Chrome Version 70.0.3538.102 (Official Build) (64-bit)
+MacBook Air (Intel Core i7, 2.2 GHz, 1 Processor, 2 Cores, 8GB).
+git version 2.18.0.
+Visual Studio Code Version 1.29.1.
+[GitHub](https://github.com/jkawahara/TriviaGame).
+Chrome Version 70.0.3538.102 (Official Build) (64-bit).
 
 Installing:
 Refer to Prerequisites and Deployment.
