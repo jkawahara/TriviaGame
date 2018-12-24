@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Coustard', serif;
-  color: black;
+  color: gray;
 }
 
 header .title {
@@ -17,6 +17,7 @@ header .title {
   text-align: center;
   font-size: 24px;
   line-height: 2em;
+  text-shadow: 2px 2px black;
 }
 
 #time-remain-section {
@@ -38,8 +39,7 @@ button {
 }
 
 button:hover {
-  background-color: lightblue;
-  /* border-color: blue; */
+  background-color: lightcoral;
 }
 
 #start-btn-section button, #restart-btn-section button {
@@ -49,4 +49,6 @@ button:hover {
 
 #choices-section button {
   width: auto;
+  color: gray;
+  text-shadow: 2px 2px black;
 }
