@@ -39,7 +39,8 @@ button {
 }
 
 button:hover {
-  background-color: lightcoral;
+  border-color: lightgray;
+  border-width: 2px;
 }
 
 #start-btn-section button, #restart-btn-section button {
