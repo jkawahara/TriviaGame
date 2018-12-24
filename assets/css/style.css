@@ -3,7 +3,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Coustard', serif;
-  color: gray;
 }
 
 header .title {
@@ -17,6 +16,7 @@ header .title {
   text-align: center;
   font-size: 24px;
   line-height: 2em;
+  color: lightgray;
   text-shadow: 2px 2px black;
 }
 
@@ -45,10 +45,12 @@ button:hover {
 #start-btn-section button, #restart-btn-section button {
   width: 30%;
   margin-top: 30px;
+  color: lightgray;
+  text-shadow: 2px 2px black;
 }
 
 #choices-section button {
   width: auto;
-  color: gray;
+  color: lightgray;
   text-shadow: 2px 2px black;
 }
